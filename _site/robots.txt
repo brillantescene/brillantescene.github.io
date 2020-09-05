@@ -1,1 +1,4 @@
-Sitemap: http://localhost:4000/sitemap.xml
+User-agent: *
+Allow: /
+
+Sitemap: https://brillantescene.github.io/sitemap.xml
