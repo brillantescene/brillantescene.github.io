@@ -285,7 +285,7 @@ defaults:
       author_profile: true
   # _docs
   - scope:
-      path: "_data/navigation"
+      path: ""
       type: docs
     values:
       sidebar:

@@ -4,6 +4,7 @@ categories:
   - blogging
 last_modified_at: 2020-09-06T13:00:00+09:00
 toc: true
+type: docs
 #sidebar:
 #  nav: "docs"
 ---
