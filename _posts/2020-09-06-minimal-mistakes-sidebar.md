@@ -79,10 +79,3 @@ defaults:
 
 안 나오네,,?
 왜지,,
-
-이 포스트의 `YAML Front Matter`에 넣어서
-
-```
-sidebar:
-  nav: "docs"
-```
