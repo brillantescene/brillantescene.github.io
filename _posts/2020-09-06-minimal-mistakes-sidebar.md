@@ -11,6 +11,7 @@ toc: true
 [minimal mistakes 문서](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-content)를 참고하여 쓴 글 입니다.
 
 먼저 테스트 용으로 문서에 나와있는 그대로 복사에서 이 포스트의 YAML Front Matter에 붙여넣기 해줬다.
+
 (사진)
 오, 사이드로 나왔다.
 
@@ -62,3 +63,26 @@ docs:
 ```
 
 이렇게 포스트를 전부 다 사이드 바에 표시하면 나중에 지저분해지겠지만 지금은 사이드 바 만드는 게 목표니까 그냥 해주겠다.
+
+```
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
+```
+
+(사진)
+
+안 나오네,,?
+왜지,,
+
+이 포스트의 `YAML Front Matter`에 넣어서
+
+```
+sidebar:
+  nav: "docs"
+```
