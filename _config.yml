@@ -283,3 +283,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _docs
+  - scope:
+      path: "_data/navigation.yml"
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
